@@ -1,0 +1,39 @@
+--vmode
+#--compact
+
+
+[labels]
+refdes=U?
+device=NTB0104
+footprint=DHVQFN14
+
+[left]
+
+.bus
+5	A4
+4	A3
+3	A2
+2	A1
+
+8	OE
+
+[right]
+
+.bus
+10	B4
+11	B3
+12	B2
+13	B1
+
+[top]
+1	VCC(A)
+
+14	VCC(B)
+
+[bottom]
+7	GND
+15	PAD
+
+[nc]
+6
+9

@@ -1,0 +1,114 @@
+--vmode
+--compact
+
+[labels]
+refdes=U?
+device=ADG726
+footprint=CP-48
+
+[top]
+
+13	VDD
+
+14	VDD
+
+[left]
+
+
+12	S1A
+
+25	S1B
+
+11	S2A
+
+26	S2B
+
+10	S3A
+
+27	S3B
+
+9	S4A
+
+28	S4B
+
+8	S5A
+
+29	S5B
+
+7	S6A
+
+30	S6B
+
+6	S7A
+
+31	S7B
+
+5	S8A
+
+32	S8B
+
+.skip 500
+
+19 !	CSA#
+20 !	CSB#
+
+21 !	WR#
+
+22 !	EN#
+
+.bus
+18	A3
+17	A2
+16	A1
+15	A0
+
+[right]
+
+4	S9A
+
+33	S9B
+
+3	S10A
+
+34	S10B
+
+2	S11A
+
+35	S11B
+
+1	S12A
+
+36	S12B
+
+48	S13A
+
+37	S13B
+
+47	S14A
+
+38	S14B
+
+46	S15A
+
+39	S15B
+
+45	S16A
+
+40	S16B
+
+.skip 500
+
+43	DA
+41	DB
+
+[bottom]
+
+23	GND
+
+24	VSS
+
+49	PAD
+
+[nc]
+44
+42
