@@ -12,7 +12,6 @@
 
 import ftdi
 import math
-from ctypes import c_uint, pointer
 
 class i2c_ftdi(object):
     def __init__(self, ftdic, scl, sda_out, sda_in, speed_hz, direction):
@@ -43,7 +42,7 @@ class i2c_ftdi(object):
 
         self.cmd(ftdi.DIS_ADAPTIVE)
         self.cmd(ftdi.EN_3_PHASE)
-        self.three_phase = True        
+        self.three_phase = True
         self.append_data_clock((1, 1))
 
         self.flush_all()
@@ -105,7 +104,7 @@ class i2c_ftdi(object):
 
     def gpio_value(self, gpio):
         def assign(b, bit):
-            gpio_value.ret = (b >> bit) & 1
+            self.gpio_value_ret = (b >> bit) & 1
 
         if gpio > 7:
             self.cmd(ftdi.GET_BITS_HIGH)
@@ -115,7 +114,7 @@ class i2c_ftdi(object):
             self.dest.append(lambda b: assign(b, gpio))
         self.flush_all()
 
-        return gpio_value.ret
+        return self.gpio_value_ret
 
     def gpio_low(self, gpio):
         self.gpio &= ~(1 << gpio)
