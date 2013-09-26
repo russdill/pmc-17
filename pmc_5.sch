@@ -285,7 +285,7 @@ C 45200 44800 1 0 0 resistor-1.sym
 T 45500 45200 5 10 0 0 0 0 1
 device=RESISTOR
 T 45600 45100 5 10 1 1 0 0 1
-value=100
+value=1k
 T 45400 44600 5 10 1 1 0 0 1
 footprint=0402
 }
@@ -294,7 +294,7 @@ C 45200 43500 1 0 0 resistor-1.sym
 T 45500 43900 5 10 0 0 0 0 1
 device=RESISTOR
 T 45600 43800 5 10 1 1 0 0 1
-value=100
+value=1k
 T 45400 43300 5 10 1 1 0 0 1
 footprint=0402
 }
