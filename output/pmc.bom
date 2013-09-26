@@ -24,7 +24,7 @@ J5,J7:unknown:HEADER_2x5:609-3410-ND:unknown:2
 Q4:IRF9520N:PowerPAK_SO-8:SI7997DP-T1-GE3CT-ND:unknown:1
 R32:50m:1204-4:LVK12R050DERCT-ND:unknown:1
 R1,R2,R21,R31,R4:10k:0402:unknown:unknown:5
-Q3:IRF9520N:sot23-6:FDC6327CCT-ND:unknown:1
+Q3:FDC6327:sot23-6:FDC6327CCT-ND:unknown:1
 R18,R19,R29,R30:4.7k:0402:unknown:unknown:4
 U19,U4:unknown:DGS-S-PDSO-G10:296-29034-1-ND:unknown:2
 P2,P3:unknown:pj-012a:CP-202A-ND:unknown:2
