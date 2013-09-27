@@ -1,8 +1,7 @@
 refdes:value:footprint:partno:DNP:qty
 C8:0.01u:0402:unknown:unknown:1
 P1:unknown:usbmini-b:H2960CT-ND:unknown:1
-R5:1k:0402:unknown:unknown:1
-C13,C14:27pF:0402:unknown:unknown:2
+C13,C14:27p:0402:unknown:unknown:2
 U2:unknown:sot23-6:93C46BT-I/OTCT-ND:unknown:1
 U3:unknown:QFN-64:768-1025-1-ND:unknown:1
 R6:12k:0402:unknown:unknown:1
@@ -10,7 +9,6 @@ R3:2.2k:0402:unknown:unknown:1
 Y1:12MHz:7v:887-1792-1-ND:unknown:1
 Q1,Q2:NDC7002N:sot23-6:NDC7002NCT-ND:unknown:2
 U1,U5:unknown:sot666:RCLAMP0502ACT-ND:unknown:2
-R27,R28:100:0402:unknown:unknown:2
 J1:unknown:HEADER_2x6:unknown:unknown:1
 U8:unknown:CP-48-1:ADG726BCPZ-ND:unknown:1
 J2:unknown:HEADER_2x16:609-3341-ND:unknown:1
@@ -20,13 +18,14 @@ J4:unknown:HEADER_3x1:3M9468-ND:unknown:1
 U10,U11,U12,U13,U15,U16,U17,U21,U22,U6,U7,U9:unknown:DRL-R-PDSO-N5:296-21694-1-ND:unknown:12
 U18:unknown:tssop-24:ISL83387EIVZ-ND:unknown:1
 J5,J7:unknown:HEADER_2x5:609-3410-ND:unknown:2
+R27,R28,R5:1k:0402:unknown:unknown:3
 Q4:IRF9520N:PowerPAK_SO-8:SI7997DP-T1-GE3CT-ND:unknown:1
 R32:50m:1204-4:LVK12R050DERCT-ND:unknown:1
 R1,R2,R21,R31,R4,R7,R8:10k:0402:unknown:unknown:7
-Q3:FDC6327:sot23-6:FDC6327CCT-ND:unknown:1
+Q3:NDC7001C:sot23-6:NCD7001CCT-ND:unknown:1
 R18,R19,R29,R30:4.7k:0402:unknown:unknown:4
 U19,U4:unknown:DGS-S-PDSO-G10:296-29034-1-ND:unknown:2
-P2,P3:unknown:pj-012a:CP-202A-ND:unknown:2
+P2,P3:unknown:pj-012a:CP-012A-ND:unknown:2
 R11,R33,R35,R9:0:0402-3:unknown:unknown:4
 FB1,FB2:unknown:0402:445-6404-1-ND:unknown:2
 U20:unknown:sot23-5:LM3671MF-3.3/NOPBCT-ND:unknown:1

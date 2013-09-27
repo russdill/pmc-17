@@ -13,7 +13,7 @@ GSCH2PCB=~/src/pcb/gsch2pcb
 
 SCHEMATICS=$(PRJ)_1.sch $(PRJ)_2.sch $(PRJ)_3.sch $(PRJ)_4.sch $(PRJ)_5.sch $(PRJ)_6.sch $(PRJ)_7.sch
 
-all: $(PRJ)_front.png $(PRJ)_back.png $(PRJ)_schematic.pdf $(PRJ).pdf gerber $(PRJ).bom
+all: $(PRJ)_front.png $(PRJ)_back.png $(PRJ)_schematic.pdf $(PRJ).pdf gerber $(PRJ).bom gerber.png
 	mkdir -p output
 	cp $(PRJ)_front.png $(PRJ)_back.png $(PRJ)_schematic.pdf $(PRJ).pdf $(PRJ).bom output
 	cp *.gbr *.cnc output

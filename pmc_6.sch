@@ -8,7 +8,7 @@ refdes=P2
 T 42500 47900 5 10 1 1 0 0 1
 footprint=pj-012a
 T 42400 47700 5 10 1 1 0 0 1
-partno=CP-202A-ND
+partno=CP-012A-ND
 }
 C 43700 47800 1 0 0 gnd-1.sym
 N 43800 48100 43800 48400 4
@@ -121,10 +121,10 @@ T 46300 47500 5 10 1 1 180 8 1
 refdes=Q3
 T 46200 46900 5 10 1 1 0 0 1
 footprint=sot23-6
-T 46200 47700 5 10 1 1 0 0 1
-partno=FDC6327CCT-ND
+T 45900 47700 5 10 1 1 0 0 1
+partno=NCD7001CCT-ND
 T 46300 47500 5 10 0 1 270 6 1
-value=FDC6327
+value=NDC7001C
 }
 C 44400 45800 1 0 0 nmosfet_power.sym
 {
@@ -143,9 +143,9 @@ refdes=Q3
 T 45000 46100 5 10 1 1 0 0 1
 footprint=sot23-6
 T 45000 45900 5 10 1 1 0 0 1
-partno=FDC6327CCT-ND
+partno=NDC7001CCT-ND
 T 45100 46200 5 10 0 1 0 0 1
-value=FDC6327
+value=NDC7001C
 }
 C 47000 48100 1 90 0 pmosfet_power.sym
 {
@@ -243,7 +243,7 @@ refdes=P3
 T 54200 47900 5 10 1 1 0 6 1
 footprint=pj-012a
 T 54300 47700 5 10 1 1 0 6 1
-partno=CP-202A-ND
+partno=CP-012A-ND
 }
 C 53000 47800 1 0 1 gnd-1.sym
 N 52900 48100 52900 48400 4
@@ -408,9 +408,3 @@ N 51900 43000 51000 43000 4
 N 51900 42100 51000 42100 4
 T 53800 46900 9 10 1 0 0 0 1
 I2C ADDR 0x4E
-T 56300 44000 8 10 1 0 0 0 2
-Resistor selected SDA, it
-should have selected SCL
-T 56300 45800 8 10 1 0 0 0 2
-Resistor selected SCL, it
-should have selected SDA
